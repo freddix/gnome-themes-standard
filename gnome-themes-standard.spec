@@ -1,15 +1,17 @@
 Summary:	Default themes for GNOME environment
 Name:		gnome-themes-standard
-Version:	3.6.0.2
+Version:	3.6.1
 Release:	1
 License:	LGPL
 Group:		Themes
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.6/%{name}-%{version}.tar.xz
-# Source0-md5:	e6ddf0a0620de85ffb019975b832a26b
+# Source0-md5:	4ee3228e200bc0084a46a774a83d826d
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gdk-pixbuf
+# gtk.gresource.xml: Error on line 41 char 1: Error processing input file with to-pixdata:
+# failed to load "./assets/dnd-counter.svg": Couldn't recognize the image file format for file './assets/dnd-counter.svg'
+BuildRequires:	gdk-pixbuf-rsvg
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-update-icon-cache
 BuildRequires:	gtk+3-devel
