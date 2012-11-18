@@ -1,11 +1,11 @@
 Summary:	Default themes for GNOME environment
 Name:		gnome-themes-standard
-Version:	3.6.1
-Release:	1
+Version:	3.6.2
+Release:	2
 License:	LGPL
 Group:		Themes
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.6/%{name}-%{version}.tar.xz
-# Source0-md5:	4ee3228e200bc0084a46a774a83d826d
+# Source0-md5:	c8f57e0e4ec0c986ea43c838fb68af93
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -58,6 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
+%attr(755,root,root) %{_libdir}/gtk-2.0/2.10.0/engines/libadwaita.so
 %attr(755,root,root) %{_libdir}/gtk-3.0/3.0.0/theming-engines/libadwaita.so
 %{_datadir}/themes/Adwaita
 %{_datadir}/themes/HighContrast
