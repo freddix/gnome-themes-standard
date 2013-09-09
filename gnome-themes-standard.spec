@@ -1,11 +1,11 @@
 Summary:	Default themes for GNOME environment
 Name:		gnome-themes-standard
-Version:	3.8.3
+Version:	3.8.4
 Release:	1
 License:	LGPL
 Group:		Themes
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.8/%{name}-%{version}.tar.xz
-# Source0-md5:	73af8ba821824d10893a472ad5303308
+# Source0-md5:	fc8b02b4860c5e842270d567a743dbee
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
