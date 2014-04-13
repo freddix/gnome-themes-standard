@@ -1,11 +1,11 @@
 Summary:	Default themes for GNOME environment
 Name:		gnome-themes-standard
-Version:	3.10.0
+Version:	3.12.0
 Release:	1
 License:	LGPL
 Group:		Themes
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.10/%{name}-%{version}.tar.xz
-# Source0-md5:	854209d213c8d6ab89c053a3f9077e57
+Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.12/%{name}-%{version}.tar.xz
+# Source0-md5:	5036f65f08bbe305ff82c9ab97b2aa3f
 URL:		http://www.gnome.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -15,12 +15,12 @@ BuildRequires:	gdk-pixbuf-rsvg
 BuildRequires:	gettext-devel
 BuildRequires:	gtk+-update-icon-cache
 BuildRequires:	gtk+-devel >= 2:2.24.15
-BuildRequires:	gtk+3-devel >= 3.10.0
+BuildRequires:	gtk+3-devel >= 3.12.0
 BuildRequires:	intltool
 BuildRequires:	librsvg-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
-Requires:	gnome-icon-theme >= 3.10.0
+Requires:	gnome-icon-theme >= 3.12.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
