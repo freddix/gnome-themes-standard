@@ -1,7 +1,7 @@
 Summary:	Default themes for GNOME environment
 Name:		gnome-themes-standard
 Version:	3.14.0
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Themes
 Source0:	http://ftp.gnome.org/pub/GNOME/sources/gnome-themes-standard/3.14/%{name}-%{version}.tar.xz
@@ -20,7 +20,7 @@ BuildRequires:	intltool
 BuildRequires:	librsvg-devel
 BuildRequires:	libtool
 BuildRequires:	pkg-config
-Requires:	gnome-icon-theme >= 3.12.0
+Requires:	adwaita-icon-theme
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
